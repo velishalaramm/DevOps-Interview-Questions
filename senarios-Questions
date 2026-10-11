@@ -1,0 +1,15 @@
+1. Senario
+A developer changes a Terraform variable, and terraform plan shows that 40 production EC2 instances will be recreated.
+
+2. Senario
+A Jenkins Terraform job fails halfway through production deployment. The next pipeline reports: Error acquiring the state lock.
+
+3. Scenario
+Your organization has 200 Terraform repositories, and every team creates VPCs differently.
+Question: How would you standardize them?
+
+
+
+
+
+
