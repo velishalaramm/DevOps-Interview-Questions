@@ -8,6 +8,28 @@ A Jenkins Terraform job fails halfway through production deployment. The next pi
 Your organization has 200 Terraform repositories, and every team creates VPCs differently.
 Question: How would you standardize them?
 
+4. Scenario:
+An engineer manually changes an AWS Security Group in production. The next Terraform plan wants to remove that change.
+Question: What do you do?
+
+5. Scenario: Terraform needs a database password. The developer proposes: password = "MyPassword123"
+Question: What would you recommend?
+
+6. Scenario: Terraform creates 100 EC2 servers. Ansible needs to configure them immediately.
+Question: How would you automate this?
+
+7. Scenario: An EC2 application is deployed across two AZs, but when AZ-1 fails, users still experience downtime.
+Question: What could be wrong?
+11. Scenario: Application latency increases every day at 10 AM. CPU remains below 40%.
+Question: What would you investigate? I
+
+14. Scenario: A developer can currently run terraform apply directly from their laptop against production.
+Question: Would you allow it?
+15. Scenario: Your production infrastructure is completely lost.
+Question: How quickly can you rebuild it?
+
+
+
 
 
 
